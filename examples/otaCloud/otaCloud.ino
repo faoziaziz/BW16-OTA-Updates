@@ -2,13 +2,13 @@
 #include <WiFi.h>
 #include <AnchorOTA.h>
 
-char ssid[] = "yourNetwork";
-char pass[] = "yourPassword";
+char ssid[] = "gdg-wrk";
+char pass[] = "gdg123wrk";
 
 #define OTA_PORT 8082
 
 // Address of device where this board can fetch its updates
-IPAddress ip = {192,168,32,14};
+IPAddress ip = {34,101,137,39};
 
 void setup() {
   Serial.begin(115200);
