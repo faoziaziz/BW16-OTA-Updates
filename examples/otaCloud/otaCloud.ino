@@ -8,7 +8,7 @@ char pass[] = "gdg123wrk";
 #define OTA_PORT 8082
 
 // Address of device where this board can fetch its updates
-IPAddress ip = {34,101,137,39};
+IPAddress ip = {34,42,250,148}; //34.42.250.148
 
 void setup() {
   Serial.begin(115200);
